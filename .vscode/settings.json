@@ -8,5 +8,14 @@
     "[python]": {
         "editor.formatOnSave": false,
         "editor.tabSize": 4
-    }
+    },
+    "sqltools.connections": [
+        {
+            "name": "Agenda Django (SQLite)",
+            "driver": "SQLite",
+            "database": "${workspaceFolder}/db.sqlite3",
+            "connectionTimeout": 30
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }
